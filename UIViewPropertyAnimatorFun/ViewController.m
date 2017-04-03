@@ -142,8 +142,6 @@ typedef NS_ENUM(NSInteger, PlayerState) {
                     weakSelf.panGestureRecognizer.enabled = YES;
                 }];
             }
-        default:
-            break;
     }
 
     CGVector velocityVector = CGVectorMake(velocity.x / 100, velocity.y / 100);
