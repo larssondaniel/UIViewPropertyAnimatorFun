@@ -21,9 +21,6 @@ typedef NS_ENUM(NSInteger, PlayerState) {
 @property (nonatomic) PlayerState playerState;
 @property (nonatomic) UIPanGestureRecognizer *panGestureRecognizer;
 
-@property (nonatomic) UIView* previewView;
-@property (nonatomic) CGRect startFrame;
-
 @end
 
 @implementation ViewController
